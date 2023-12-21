@@ -1,0 +1,71 @@
+.notelist {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15rem;
+}
+.box {
+  min-height: 200px;
+  min-width: 200px;
+  height: 7rem;
+  box-shadow: 0 0.5rem 1rem rgb(128, 128, 128);
+  padding: 1rem;
+  margin: 1rem;
+}
+.box h2 {
+  font-size: 1.3rem;
+  color: rgb(15, 15, 15);
+  margin-bottom: 0.8rem;
+}
+.delete {
+  position: absolute;
+  /* bottom: 0; */
+  /* right: 2rem; */
+  margin-left: 3rem;
+  border-radius: 30px;
+  border: 0;
+  color: gray;
+  box-shadow: 0 0.5rem 1rem rgb(128, 128, 128);
+  outline: none;
+  cursor: pointer;
+  padding: 0.4rem;
+}
+.delete:active {
+  background-color: rgb(228, 12, 12);
+}
+
+.edit {
+  position: absolute;
+  /* bottom: 0; */
+  /* right: 2rem; */
+  border-radius: 30px;
+  border: 0;
+  color: gray;
+  box-shadow: 0 0.5rem 1rem grey;
+  outline: none;
+  cursor: pointer;
+  padding: 0.4rem;
+}
+.edit:active {
+  background-color: rgb(225, 241, 6);
+}
+.color {
+  position: absolute;
+  /* bottom: 0; */
+  /* right: 2rem; */
+  margin-left: -3.5rem;
+  border-radius: 30px;
+  border: 0;
+  color: gray;
+  box-shadow: 0 0.5rem 1rem grey;
+  outline: none;
+  cursor: pointer;
+  padding: 0.4rem;
+}
+.color:active {
+  background-color: rgb(14, 209, 20);
+}
+.color-picker-overlay {
+  margin-top: 4rem;
+}
