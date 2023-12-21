@@ -23,15 +23,6 @@ Keep App is a simplified version of Google Keep, allowing users to create, edit,
 8.Search Functionality: Filter notes based on titles or content.
 
 
-## Documentation
-
-1.The landing page consists of a signup button and a login button.\
-2. The first step is to create an account by clicking on the sign-up button. Firebase authentication is used for the sign-up process.\
-3.When signing up, users are required to fill out all fields, including a valid email address with the "@" symbol, and a password that is at least 6 characters long.\
-4.After finishing the sign-up process, a notification will appear in the top right corner using npm toastify and then click Login button to login.\
-5.You need to enter the correct email and password you used during signup. Afterward, you will be redirected to the Account Settings page.
-
-
 ## Tools
 VS Code\
 Node.js
