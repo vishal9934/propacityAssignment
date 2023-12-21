@@ -1,70 +1,64 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# KEEP APP
 
-## Available Scripts
+Keep App is a note-taking application built with React.
 
-In the project directory, you can run:
 
-### `npm start`
+## Tech Stack
+React.js\
+CSS\
+MUI\
+LOCAL STORAGE
+## INTRODUCTION
+Keep App is a simplified version of Google Keep, allowing users to create, edit, and organize their notes. The application is built using React and includes features such as note listing, creation, editing, deletion, color coding, local storage, and a search functionality.
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.Note Listing: Display a list of notes with titles and content.\
+2.Create Note: Add new notes with color coding.\
+3.Edit Note: Modify the title and content of each note.\
+4.Delete Note: Remove notes with a confirmation prompt.\
+5.Responsive Design: Works well on both desktop and mobile devices.\
+6.Color Coding: Assign different colors to notes for organization.\
+7.Local Storage: Save notes to local storage for persistence.\
+8.Search Functionality: Filter notes based on titles or content.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Documentation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.The landing page consists of a signup button and a login button.\
+2. The first step is to create an account by clicking on the sign-up button. Firebase authentication is used for the sign-up process.\
+3.When signing up, users are required to fill out all fields, including a valid email address with the "@" symbol, and a password that is at least 6 characters long.\
+4.After finishing the sign-up process, a notification will appear in the top right corner using npm toastify and then click Login button to login.\
+5.You need to enter the correct email and password you used during signup. Afterward, you will be redirected to the Account Settings page.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tools
+VS Code\
+Node.js
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install my-project with npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.Clone the repository:\
+git clone https://github.com/vishal9934/propacityAssignment
 
-### `npm run eject`
+2.Navigate to the project directory:\
+cd keepnote
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3.Install dependencies using npm:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+    
+## USAGE
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Run the application in development mode:
 
-### Analyzing the Bundle Size
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The app will be served at http://localhost:3000 in your browser.
